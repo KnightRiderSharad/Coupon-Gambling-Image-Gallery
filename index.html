@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+     <div class="wrap">
+
+      <div class="col-md-12 text-center">
+       <h1 class="heading"> Image Gallery</h1>
+      </div>
+       
+       <div class="img-area">
+
+           <div class="flex_images" id="banner1-img">
+            <img src="https://cdn.pixabay.com/photo/2019/10/02/04/40/registration-4519979_960_720.jpg" height="10rem" width="200%" alt="image gallery">
+            <p id="para">Register Yourself here!</p>
+           </div>
+
+
+           <div class="flex_images" id="banner2-img">
+            <img src="https://img.freepik.com/premium-photo/word-biodata-is-written-wooden-cubes-blocks-are-placed-old-wooden-board-illuminated-by-sun-background-is-brightly-blooming-shrub_384017-3327.jpg?w=2000" height="10rem" width="200%" alt="image gallery">
+            <p id="para">After Register, You can see your Name and UserName here!</p>
+           </div>
+
+
+           <div class="flex_images" id="banner3-img">
+            <img src="https://play-lh.googleusercontent.com/a-5VXel6I1l0INOZ2Z-JWLVKyREMTpmjzmie7Z63f7lLJ3D4JXrLU0e6jqkudy7jlw" height="10rem" width="200%" alt="image gallery">
+            <p id="para">Roll the Dice to generate the Coupon in next image!</p>
+           </div>
+
+
+           <div class="flex_images" id="banner4-img">
+            <img src="https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2022-10/Coupons.jpg" height="10rem" width="200%" alt="image gallery">
+            <p id="para">Coupon will be generated here!</p>
+           </div>
+
+       </div>
+    </div>
+   </div>
+
+   <div id="display"></div>
+
+   <div id="Dice">
+        <img src="https://cdn.pixabay.com/photo/2017/02/01/21/47/cube-2031512__340.jpg" alt="image gallery">
+   </div>
+   
+   <div id="Point_count"></div>
+
+   <div id="Coupon"> <img src="https://loccessories.com/wp-content/uploads/2019/07/loccessories_secret-coupon-code.png" id="congratulations">
+   </div></div>
+
+   <div id = "results"></div>
+   
+   <div id = "picture" style= "display:none">
+    <img src="https://media.istockphoto.com/id/1199025903/vector/congratulations-greeting-card-vector-lettering.jpg?s=612x612&w=0&k=20&c=JBjYOnkRerY0uxBrYAtKccIk6tdiBCuzwClegCucpmw=">
+   </div>
+  
+      <div id="form">  
+       
+        <h1 id="reg">Registration form </h1>
+        <div id="error"></div>
+
+        <label>Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label >Email</label><br>
+        <input type="text" id="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label >Username</label><br>
+        <input type="text" id="username" placeholder="Enter your username" required>
+        <br><br>
+
+        <button id="submit">Register</button>
+      </div>
+    
+
+
+</body>
+<script src="script.js"></script>
+</html>
